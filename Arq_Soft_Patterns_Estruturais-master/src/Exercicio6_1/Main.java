@@ -5,12 +5,12 @@ import java.util.Date;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		// Verifica o dia da semana.
+		// Verifica o dia da semana
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(new Date(System.currentTimeMillis()));
 		int diaSemana = calendar.get(Calendar.DAY_OF_WEEK);
 
-		// Cria a estrategia correta.
+		// Cria a estrategia correta
 		MensagemDoDia mensagem = null;
 		switch (diaSemana) {
 		case Calendar.SUNDAY:

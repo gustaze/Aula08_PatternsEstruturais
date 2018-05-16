@@ -3,16 +3,16 @@ package Exercicio6_2;
 import java.text.NumberFormat;
 
 public class Main {
-	// Número de termos.
+	// Número de termos
 	private static final int NUM = 100000;
 
-	// Formatador.
+	// Formatador
 	private static final NumberFormat format = NumberFormat.getNumberInstance();
 	static {
 		format.setMaximumFractionDigits(1);
 	}
 
-	// Construindo um vetor.
+	// Construindo um vetor
 	private static double[] construirVetor() {
 		double[] d = new double[NUM];
 		for (int i = 0; i < d.length; i++)
@@ -20,7 +20,7 @@ public class Main {
 		return d;
 	}
 
-	// Imprime o vetor.
+	// Imprime o vetor
 	@SuppressWarnings("unused")
 	private static void imprimirVetor(double a[]) {
 		for (int i = 0; i < a.length; i++)
