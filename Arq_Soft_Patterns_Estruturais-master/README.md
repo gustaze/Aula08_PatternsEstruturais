@@ -1,1 +1,0 @@
-# Arq_Soft_Patterns_Estruturais
